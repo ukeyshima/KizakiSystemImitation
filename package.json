@@ -1,0 +1,42 @@
+{
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/plugin-proposal-decorators": "^7.2.3",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "glsl-loader": "0.0.1",
+    "mobx": "^5.8.0",
+    "mobx-react": "^5.4.3",
+    "node-sass": "^4.11.0",
+    "react-decoration": "^2.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "file-saver": "^2.0.1",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-dropzone": "^9.0.0",
+    "react-three-renderer": "^3.2.4",
+    "react-three-renderer-objects": "0.0.6",
+    "stl-loader": "^1.0.0",
+    "three": "^0.102.0",
+    "three-2-csg": "^1.0.2",
+    "three-js": "^79.0.0",
+    "three-orbitcontrols": "^2.101.1",
+    "three-stl-loader": "^1.0.6",
+    "threejs-export-stl": "0.0.4"
+  }
+}
